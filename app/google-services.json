@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "583550399245",
+    "firebase_url": "https://take-away-517cb.firebaseio.com",
+    "project_id": "take-away-517cb",
+    "storage_bucket": "take-away-517cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583550399245:android:ee9224b9a53e277cd8f644",
+        "android_client_info": {
+          "package_name": "nl.saxion.lh.persistent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583550399245-5lcvck1s50n6ksd0hol3rs73o5k3hter.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nl.saxion.lh.persistent",
+            "certificate_hash": "98b11240140fd4b50fcbbf4c5b959ae7b8d9d97e"
+          }
+        },
+        {
+          "client_id": "583550399245-bitk2squpdu4v6scaauehvna4kalajt8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv0S0ZLEYsF_JkxMiYxLRKFNeM1mVdVzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583550399245-bitk2squpdu4v6scaauehvna4kalajt8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Activity.LogInActivity"
+    android:background="@drawable/bg_login">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/next_toolbar"
+            android:id="@+id/next_toolbar"
+            />
+
+        <EditText
+            android:id="@+id/mTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#ffff"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:textCursorDrawable="@drawable/orange_cusor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mTextUsername" />
+
+        <EditText
+            android:id="@+id/mTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="164dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#ffff"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:textCursorDrawable="@drawable/orange_cusor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/next_toolbar" />
+
+        <Button
+            android:id="@+id/mButtonLogIn"
+            android:layout_width="98dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="44dp"
+            android:backgroundTint="#ff1574f5"
+            android:onClick="logIn"
+            android:text="Log in"
+            android:textColor="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mTextPassword" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.DrawerLayout>

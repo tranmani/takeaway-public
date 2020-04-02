@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Persistent</string>
+    <string name="about_string">About</string>
+    <string name="login_string">Login</string>
+    <string name="title_activity_code_challenge">CodeChallengeActivity</string>
+    <string name="title_activity_user_data2">UserData2</string>
+</resources>
